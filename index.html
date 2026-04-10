@@ -3,51 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sravani | ML Portfolio</title>
+    <title>Sravani | Machine Learning Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Hi, I'm Sravani</h1>
-        <p>Aspiring Machine Learning Engineer</p>
-        <p>I build systems that analyze real-world model behavior.</p>
+<header>
+    <h1>Sravani</h1>
+    <p class="subtitle">Aspiring Machine Learning Engineer</p>
+    <p class="tagline">
+        I build and analyze ML systems under real-world conditions, focusing on reliability over inflated accuracy.
+    </p>
+</header>
 
-        <a href="https://github.com/sravani-engineer" target="_blank">GitHub</a>
-    </section>
+<section>
+    <h2>🎥 Demo</h2>
+    <img src="assets/demo.gif" alt="Hand Gesture Demo" class="demo">
+</section>
 
-    <!-- PROJECT -->
-    <section class="project">
-        <h2>Featured Project</h2>
-        <h3>Hand Gesture Recognition — Failure Analysis</h3>
+<section>
+    <h2>🚀 Featured Project</h2>
+
+    <div class="project-card featured">
+        <h3>Hand Gesture Recognition — Failure Analysis Under Real-World Conditions</h3>
 
         <p>
-            Evaluated model performance under real-world variations using 
-            session-based validation. Identified gesture-level ambiguity 
-            as the primary limitation.
+        Built a real-time hand gesture recognition system using Python, MediaPipe, OpenCV, and scikit-learn.
         </p>
 
-        <img src="assets/demo.gif" width="400">
+        <p>
+        Evaluated using session-based validation across 12 sessions, 5 users, and ~22K frames to simulate real-world deployment instead of relying on random train-test splits.
+        </p>
 
-        <br><br>
-        <a href="https://github.com/sravani-engineer/robust-hand-gesture-recognition" target="_blank">
-            View Project
-        </a>
-    </section>
+        <p>
+        Identified a ~12% performance drop under challenging conditions and discovered that gesture similarity (open vs four) was the primary source of model error.
+        </p>
 
-    <!-- SKILLS -->
-    <section class="skills">
-        <h2>Skills</h2>
-        <p>Python, OpenCV, MediaPipe, NumPy, scikit-learn</p>
-        <p>Machine Learning, Feature Engineering, Model Evaluation</p>
-    </section>
+        <p class="highlight">
+        Key Insight: Model errors were driven more by gesture similarity than environmental variation.
+        </p>
 
-    <!-- CONTACT -->
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: your-email@gmail.com</p>
-    </section>
+        <p><strong>Tech:</strong> Python, OpenCV, MediaPipe, scikit-learn</p>
+    </div>
+</section>
+
+<section>
+    <h2>📂 Other Projects</h2>
+
+    <div class="project-card">
+        <h3>Skill Swap Hub — Secure Server Automation</h3>
+        <p>
+        Configured SSH key-based authentication on Linux servers to eliminate password-based access and improve security.
+        </p>
+        <p>
+        Automated server configuration using Ansible, reducing manual setup effort and improving deployment consistency.
+        </p>
+        <p><strong>Tech:</strong> Linux, SSH, Ansible</p>
+    </div>
+
+    <div class="project-card">
+        <h3>Promulgate Innovations — Web Design</h3>
+        <p>
+        Designed UI/UX prototypes for a digital marketing website using Figma, focusing on usability and structured user flow.
+        </p>
+        <p>
+        Collaborated with stakeholders to refine designs based on business requirements, improving user engagement.
+        </p>
+        <p><strong>Tech:</strong> Figma, UI/UX</p>
+    </div>
+</section>
+
+<section>
+    <h2>🛠 Skills</h2>
+    <div class="skills">
+        <p><strong>Languages:</strong> Python, SQL, C++, JavaScript</p>
+        <p><strong>Libraries:</strong> OpenCV, MediaPipe, NumPy, scikit-learn</p>
+        <p><strong>Concepts:</strong> Machine Learning, Model Evaluation, Feature Engineering, Domain Shift</p>
+        <p><strong>Tools:</strong> Git, GitHub, Linux, AWS</p>
+    </div>
+</section>
+
+<section>
+    <h2>📫 Contact</h2>
+    <p>Email: saggurthisravani27@gmail.com</p>
+    <p>
+        <a href="https://github.com/sravani-engineer" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/sravani-saggurthi-3075ab238" target="_blank">LinkedIn</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Sravani</p>
+</footer>
 
 </body>
 </html>
