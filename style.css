@@ -14,12 +14,10 @@ body {
 
 .hero h1 {
     font-size: 48px;
-    margin-bottom: 10px;
 }
 
 .hero h2 {
     color: #60a5fa;
-    margin-bottom: 20px;
 }
 
 .hero p {
@@ -41,7 +39,6 @@ body {
     color: #22c55e;
     text-decoration: none;
     border-radius: 8px;
-    transition: 0.3s;
 }
 
 .buttons a:hover {
@@ -74,25 +71,11 @@ body {
     margin-top: 20px;
     border-radius: 12px;
     border: 1px solid #22c55e;
+    transition: 0.3s;
 }
 
-.card h3 {
-    margin-top: 0;
-}
-
-.card ul {
-    padding-left: 20px;
-}
-
-.card li {
-    margin-bottom: 10px;
-}
-
-/* INSIGHT */
-.insight {
-    color: #22c55e;
-    font-weight: bold;
-    margin-top: 15px;
+.card:hover {
+    transform: scale(1.02);
 }
 
 /* SMALL CARD */
@@ -100,10 +83,15 @@ body {
     border: 1px dashed #374151;
 }
 
+/* INSIGHT */
+.insight {
+    color: #22c55e;
+    font-weight: bold;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #1f2937;
-    margin-top: 40px;
 }

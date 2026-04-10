@@ -3,97 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sravani | Machine Learning Engineer</title>
+    <title>Sravani | ML Engineer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
+<!-- HERO -->
+<section class="hero">
     <h1>Sravani</h1>
-    <p class="subtitle">Aspiring Machine Learning Engineer</p>
-    <p class="tagline">
-        I build and analyze ML systems under real-world conditions, focusing on reliability over inflated accuracy.
-    </p>
-</header>
+    <h2>Machine Learning Engineer | Focused on Real-World Model Reliability</h2>
 
-<section>
-    <h2>🎥 Demo</h2>
-    <img src="assets/demo.gif" alt="Hand Gesture Demo" class="demo">
+    <p>
+        I build and evaluate ML systems under real-world conditions, focusing on 
+        robustness, failure analysis, and deployment reliability — not just accuracy.
+    </p>
+
+    <div class="buttons">
+        <a href="https://github.com/sravani-engineer" target="_blank">GitHub</a>
+        <a href="assets/resume.pdf" target="_blank">Resume</a>
+    </div>
 </section>
 
-<section>
+<!-- DEMO -->
+<section class="section">
+    <h2>🎥 Demo</h2>
+    <img src="assets/demo.gif" class="demo">
+</section>
+
+<!-- FEATURED PROJECT -->
+<section class="section">
     <h2>🚀 Featured Project</h2>
 
-    <div class="project-card featured">
-        <h3>Hand Gesture Recognition — Failure Analysis Under Real-World Conditions</h3>
+    <div class="card">
 
-        <p>
-        Built a real-time hand gesture recognition system using Python, MediaPipe, OpenCV, and scikit-learn.
+        <h3>Hand Gesture Recognition — Real-World Failure Analysis</h3>
+
+        <p class="tagline">
+            Built a real-time ML system and analyzed performance under distribution shift.
         </p>
 
-        <p>
-        Evaluated using session-based validation across 12 sessions, 5 users, and ~22K frames to simulate real-world deployment instead of relying on random train-test splits.
+        <ul>
+            <li>📊 Evaluated on <b>12 sessions, 5 users, ~22K frames</b></li>
+            <li>🔬 Used <b>session-based validation</b> to prevent data leakage</li>
+            <li>📉 Identified <b>~12% performance drop</b> in real-world conditions</li>
+            <li>⚠️ Discovered major failure: <b>open vs four confusion</b></li>
+        </ul>
+
+        <p class="insight">
+            Key Insight: Model errors were driven more by gesture similarity than environmental variation.
         </p>
 
-        <p>
-        Identified a ~12% performance drop under challenging conditions and discovered that gesture similarity (open vs four) was the primary source of model error.
-        </p>
+        <div class="buttons">
+            <a href="https://github.com/sravani-engineer/robust-hand-gesture-recognition" target="_blank">View Code</a>
+            <a href="https://robust-hand-gesture-recognition-fwvdrm66ujac9ub2yz2vpd.streamlit.app/" target="_blank">Live App</a>
+        </div>
 
-        <p class="highlight">
-        Key Insight: Model errors were driven more by gesture similarity than environmental variation.
-        </p>
-
-        <p><strong>Tech:</strong> Python, OpenCV, MediaPipe, scikit-learn</p>
     </div>
 </section>
 
-<section>
+<!-- WHY IT MATTERS -->
+<section class="section">
+    <h2>💡 Why This Matters</h2>
+
+    <div class="card">
+        <p>
+            Most ML systems report high accuracy using random splits, which hides real-world failure.
+            This project demonstrates how performance drops under distribution shift and why
+            evaluation strategy is critical for reliable deployment.
+        </p>
+    </div>
+</section>
+
+<!-- WHAT I LEARNED -->
+<section class="section">
+    <h2>🧠 What I Learned</h2>
+
+    <div class="card">
+        <ul>
+            <li>High accuracy does not guarantee real-world performance</li>
+            <li>Session-based validation prevents data leakage</li>
+            <li>Feature representation limits model performance</li>
+            <li>Failure analysis is critical for production ML</li>
+        </ul>
+    </div>
+</section>
+
+<!-- OTHER PROJECTS -->
+<section class="section">
     <h2>📂 Other Projects</h2>
 
-    <div class="project-card">
-        <h3>Skill Swap Hub — Secure Server Automation</h3>
+    <div class="card small">
+        <h3>Machine Learning Project 2</h3>
         <p>
-        Configured SSH key-based authentication on Linux servers to eliminate password-based access and improve security.
+            Add your second project here (based on your resume).
         </p>
-        <p>
-        Automated server configuration using Ansible, reducing manual setup effort and improving deployment consistency.
-        </p>
-        <p><strong>Tech:</strong> Linux, SSH, Ansible</p>
     </div>
 
-    <div class="project-card">
-        <h3>Promulgate Innovations — Web Design</h3>
+    <div class="card small">
+        <h3>Machine Learning Project 3</h3>
         <p>
-        Designed UI/UX prototypes for a digital marketing website using Figma, focusing on usability and structured user flow.
+            Add your third project here (based on your resume).
         </p>
-        <p>
-        Collaborated with stakeholders to refine designs based on business requirements, improving user engagement.
-        </p>
-        <p><strong>Tech:</strong> Figma, UI/UX</p>
     </div>
 </section>
 
-<section>
+<!-- SKILLS -->
+<section class="section">
     <h2>🛠 Skills</h2>
-    <div class="skills">
-        <p><strong>Languages:</strong> Python, SQL, C++, JavaScript</p>
-        <p><strong>Libraries:</strong> OpenCV, MediaPipe, NumPy, scikit-learn</p>
-        <p><strong>Concepts:</strong> Machine Learning, Model Evaluation, Feature Engineering, Domain Shift</p>
-        <p><strong>Tools:</strong> Git, GitHub, Linux, AWS</p>
+
+    <div class="card">
+        <p><b>Languages:</b> Python, HTML, CSS</p>
+        <p><b>Libraries:</b> NumPy, OpenCV, MediaPipe, scikit-learn</p>
+        <p><b>Tools:</b> Git, GitHub, Streamlit</p>
+        <p><b>Concepts:</b> Machine Learning, Model Evaluation, Domain Shift, Feature Engineering</p>
     </div>
 </section>
 
-<section>
-    <h2>📫 Contact</h2>
-    <p>Email: saggurthisravani27@gmail.com</p>
-    <p>
-        <a href="https://github.com/sravani-engineer" target="_blank">GitHub</a> |
-        <a href="https://www.linkedin.com/in/sravani-saggurthi-3075ab238" target="_blank">LinkedIn</a>
-    </p>
+<!-- CONTACT -->
+<section class="section">
+    <h2>📞 Contact</h2>
+
+    <div class="card">
+        <p>Email: your-email@gmail.com</p>
+        <p>GitHub: https://github.com/sravani-engineer</p>
+        <p>LinkedIn: add-your-link</p>
+    </div>
 </section>
 
+<!-- FOOTER -->
 <footer>
-    <p>© 2026 Sravani</p>
+    <p>© 2026 Sravani | Machine Learning Portfolio</p>
 </footer>
 
 </body>
