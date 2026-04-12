@@ -7,44 +7,34 @@ body {
     line-height: 1.6;
 }
 
-h1, h2, h3 {
-    letter-spacing: 0.5px;
-}
-
 /* HERO */
 .hero {
     text-align: center;
-    padding: 80px 20px;
+    padding: 90px 20px;
     background: #020617;
 }
 
 .hero h1 {
-    font-size: 48px;
-    margin-bottom: 10px;
+    font-size: 50px;
 }
 
 .hero h2 {
     color: #60a5fa;
-    font-weight: 500;
 }
 
-.hero p {
-    max-width: 750px;
-    margin: 10px auto;
-}
-
-/* HIGHLIGHT TEXT */
+/* HIGHLIGHT */
 .highlight {
     color: #22c55e;
     font-weight: bold;
-    margin-top: 10px;
+}
+
+/* SCROLL TEXT */
+.scroll {
+    margin-top: 20px;
+    opacity: 0.6;
 }
 
 /* BUTTONS */
-.buttons {
-    margin-top: 25px;
-}
-
 .buttons a {
     display: inline-block;
     margin: 8px;
@@ -68,10 +58,8 @@ h1, h2, h3 {
 }
 
 .section h2 {
-    font-size: 26px;
     border-bottom: 1px solid #1f2937;
     padding-bottom: 10px;
-    margin-bottom: 20px;
 }
 
 /* DEMO */
@@ -79,75 +67,65 @@ h1, h2, h3 {
     width: 100%;
     max-width: 800px;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
 /* CARD */
 .card {
     background: #020617;
     padding: 25px;
-    margin-top: 20px;
+    margin-top: 25px;
     border-radius: 12px;
     border: 1px solid #22c55e;
     transition: 0.3s;
 }
 
-/* HOVER EFFECT (TOP 5% FEEL) */
+/* MAIN PROJECT */
+.main-card {
+    border: 2px solid #22c55e;
+}
+
+/* HOVER */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(34, 197, 94, 0.2);
 }
 
-/* SMALL CARD */
+/* SMALL */
 .small {
     border: 1px dashed #374151;
 }
 
 /* BADGE */
 .badge {
-    display: inline-block;
     background: #22c55e;
     color: black;
     padding: 5px 10px;
     border-radius: 6px;
     font-size: 12px;
-    margin-bottom: 10px;
 }
 
-/* PROJECT TEXT */
-.project-desc {
-    margin-bottom: 10px;
-    color: #cbd5f5;
-}
-
-/* PROJECT CARD */
-.project-card {
-    margin-top: 20px;
-}
-
-.project-card h3 {
-    color: #60a5fa;
-}
-
-/* IMPACT BLOCK */
+/* IMPACT */
 .impact {
     margin-top: 15px;
     padding: 15px;
     border-left: 3px solid #22c55e;
     background: rgba(34, 197, 94, 0.05);
-    border-radius: 6px;
 }
 
 /* INSIGHT */
 .insight {
     color: #22c55e;
     font-weight: bold;
-    margin-top: 15px;
 }
 
-/* LIST SPACING */
-.card ul {
-    line-height: 1.8;
+/* PROJECT */
+.project-card h3 {
+    color: #60a5fa;
+}
+
+/* TEXT SPACING */
+.card p {
+    margin: 8px 0;
 }
 
 /* FOOTER */
@@ -155,6 +133,4 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #1f2937;
-    margin-top: 40px;
-    font-size: 14px;
 }
