@@ -16,25 +16,33 @@ body {
 
 .hero h1 {
     font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .hero h2 {
     color: #60a5fa;
+    font-weight: 500;
 }
 
-/* HIGHLIGHT */
+/* HIGHLIGHT TEXT */
 .highlight {
     color: #22c55e;
     font-weight: bold;
+    margin-top: 10px;
 }
 
-/* SCROLL */
+/* SCROLL TEXT */
 .scroll {
     margin-top: 20px;
     opacity: 0.6;
+    font-size: 14px;
 }
 
 /* BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
 .buttons a {
     display: inline-block;
     margin: 8px;
@@ -60,13 +68,16 @@ body {
 .section h2 {
     border-bottom: 1px solid #1f2937;
     padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 26px;
 }
 
-/* DEMO */
+/* DEMO IMAGE */
 .demo {
     width: 100%;
     max-width: 800px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 /* CARD */
@@ -79,49 +90,77 @@ body {
     transition: 0.3s;
 }
 
-/* MAIN PROJECT */
+/* MAIN PROJECT EMPHASIS */
 .main-card {
     border: 2px solid #22c55e;
     transform: scale(1.02);
 }
 
-/* HOVER */
+/* HOVER EFFECT */
 .card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(34, 197, 94, 0.2);
 }
 
-/* SMALL */
+/* SMALL CARDS */
 .small {
     border: 1px dashed #374151;
 }
 
 /* BADGE */
 .badge {
+    display: inline-block;
     background: #22c55e;
     color: black;
     padding: 5px 10px;
     border-radius: 6px;
     font-size: 12px;
+    margin-bottom: 10px;
 }
 
-/* IMPACT */
+/* PROJECT DESCRIPTION */
+.project-desc {
+    margin-bottom: 10px;
+    color: #cbd5f5;
+}
+
+/* PROJECT TITLE COLOR */
+.project-card h3 {
+    color: #60a5fa;
+}
+
+/* IMPACT BLOCK (MAIN PROJECT) */
 .impact {
     margin-top: 15px;
     padding: 15px;
     border-left: 3px solid #22c55e;
     background: rgba(34, 197, 94, 0.05);
+    border-radius: 6px;
 }
 
-/* INSIGHT */
-.insight {
+/* IMPACT LINE (OTHER PROJECTS) */
+.impact-line {
+    margin-top: 10px;
     color: #22c55e;
     font-weight: bold;
 }
 
-/* PROJECT */
-.project-card h3 {
-    color: #60a5fa;
+/* INSIGHT TEXT */
+.insight {
+    color: #22c55e;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* PROOF SECTION */
+.proof p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/* LIST SPACING */
+.card ul {
+    line-height: 1.8;
 }
 
 /* TEXT SPACING */
@@ -134,17 +173,6 @@ footer {
     text-align: center;
     padding: 20px;
     border-top: 1px solid #1f2937;
-}
- 
-/* PROOF SECTION */
-.proof p {
-    font-size: 15px;
-    margin: 10px 0;
-}
-
-/* IMPACT LINE */
-.impact-line {
-    margin-top: 10px;
-    color: #22c55e;
-    font-weight: bold;
+    margin-top: 40px;
+    font-size: 14px;
 }
